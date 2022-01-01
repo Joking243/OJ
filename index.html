@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joking</title>
+    <link rel="stylesheet" href="Styles/style.CSS">
+    <style>
+        body{
+            background-image: url(./Media/fond.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image: url(./Media/fond.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: rgb(238, 56, 11);
+    padding: 0% 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent ;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li:hover{
+    background: #fff;
+    color: #000;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre h1{
+    color: #fff;
+    font-size: 300%;
+}
+@media screen and (max-width:640px){
+    .principale{
+        max-width: 57rem;
+        margin: 0 auto;
+    }
+    .logo{
+        color: rgb(238, 56, 11);
+        padding: 0% 10px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-decoration: none;
+        text-shadow: rgb(0, 0, 0, 0.7);
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .titre{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    .titre h1{
+        color: #fff;
+        font-size: 100%;
+    }
+    ul{
+        list-style: none;
+        float: right;
+        display: flex;
+        margin-top: 10px;
+    }
+    ul li{
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 0px;
+        border: 1px solid transparent ;
+        margin: 5px;
+        font-weight: 250;
+        transition: 0.6s ease;
+    }
+}
+        }
+    </style>
+</head>
+<body style="background-image:url(./Media/fond.jpg);">
+    <header>
+        <div class="principale">
+            <div class="logo">
+                <P class="logo">JOKING</P>
+            </div> 
+            <div >
+                <ul>
+                    <li><a href="Pages/page1_accueil.html">ACCUEIL</li></a> 
+                    <li><a href="Pages/page2_info.html">INFOS</li></a>
+                    <li><a href="Pages/page3_contact.html">CONTACT</li></a> 
+                </ul> 
+            </div>
+        </div>
+    </header>
+    <section>
+            <div class="titre">
+                <h1>BIENVENU(E) A TOUS DANS CE SITE</h1>
+                <P><stong>Site personnel et privé</stong></P>
+            </div>
+    </section>
+    <footer>
+    
+    </footer>
+</body>
+</html>
